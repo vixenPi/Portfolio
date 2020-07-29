@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Hello</title>
+</head>
+<body>
+  <h1>
+  Welcome
+  </h1>
+  <p>
+  Hello There.
+  </p>
+  <p>
+  Do you like:
+  <form method="get" action="/dog.html">
+      <button type="submit">Dogs?</button>
+  </form>
+  <form method="get" action="/cat.html">
+      <button type="submit">Cats?</button>
+  </form>
+  </p>
+  <p>
+    <form action="/other.html">
+      <label for="other">Other:</label>
+      <input type="text" name="other"><br>
+      <script>
+        var queryString = "?animal=" + other;
+      </script>
+      <input type="submit" window.location.href = "/other.html" + queryString;>
+    </form>
+  </p>
+  <link href="alex.css" rel="stylesheet">
+</body>
+</html>
