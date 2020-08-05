@@ -1,1 +1,3 @@
 htpassword
+.DS_Store
+.terraform
